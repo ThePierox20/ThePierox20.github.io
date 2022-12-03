@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    /* flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo img{
+    width: 250px;
+    vertical-align: middle;
+}
+#menu1{
+    width: 50%;
+    background-color: black;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#menu1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    /*flex hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#menu1 a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+#padre{
+    width: 80%;
+   
+    margin: auto;
+    
+}
+.hijo1{
+    width: 60%;
+    height: 500px;
+    background-color: gray;
+    margin: 20px;
+    float: right;
+}
+
+.hijo2{
+    width: 33.5%;
+    height: 250px;
+    background-color: gray;
+    margin: 20px;
+
+}
+.hijo3{
+    width: 33.5%;
+    height: 250px;
+    background-color: gray;
+    margin: 20px;
+}
+#padre2{
+    width: 80%;
+ 
+    margin: auto;
+    display: flex;
+    
+}
+
+.caja{
+    border: 3px solid yellowgreen;
+    background-color: black;
+    text-align: center;
+    line-height: 30px;
+}
+#toto{
+    width: 30%;
+    margin-top: 15px;
+    
+}
+#padre3{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+   width: 79%;
+   margin: auto;
+}
+#lobo{
+    width: 40%;
+    margin-bottom: 10px;
+}
+#lobo2{
+    width: 50%;
+}
+#padre2{
+    width:80%;
+    margin-block-end: 4.5%;
+
+}
+.hijo{
+    width: 500px;
+    height: 100px;
+
+    margin: 10px;
+    padding: 10px;
+}
+#lol{
+    width: 100%;
+    height: 100%;
+}
+#lel{
+    width: 100%;
+    height: 99%;
+}
+#lal{
+    width: 100%;
+    height: 99%;
+}
+p{
+    color: white;
+}

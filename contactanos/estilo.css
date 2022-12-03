@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h2{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    
+}
+main{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    /* flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+header{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo img{
+    width: 250px;
+    vertical-align: middle;
+}
+#menu1{
+    width: 50%;
+    background-color: black;
+    /*flex padre*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#menu1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    /*flex hijo*/
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#menu1 a:hover{
+    background-color: greenyellow;
+    color: black;
+}
+#registro{
+    background-color: black;
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#registro h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:aliceblue;
+}
+.ingreso{
+    background-color: white;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+p{
+text-align: center;
+margin: 10px;
+
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#grabar{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(48, 231, 48);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+}
+#grabar:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
